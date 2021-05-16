@@ -12,7 +12,7 @@ oi = driver.find_elements_by_xpath('//input')
 a=0
 
 for x in oi:
-    print(oi[a].is_selected())
+    print("#System: checkbox["+str(a)+"] is "+str(oi[a].is_selected()))
     a=a+1
 
 print("\n#Anwendung: End anwendung\n")
